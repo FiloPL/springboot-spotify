@@ -24,7 +24,7 @@ public class Image {
     @JsonProperty("width")
     private Integer width;
     @JsonIgnore
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private Map<String, Object> additionalProperties = new HashMap<>();
 
     @JsonProperty("height")
     public Integer getHeight() {

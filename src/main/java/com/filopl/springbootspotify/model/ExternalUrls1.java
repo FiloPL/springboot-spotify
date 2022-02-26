@@ -18,7 +18,7 @@ public class ExternalUrls1 {
     @JsonProperty("spotify")
     private String spotify;
     @JsonIgnore
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private Map<String, Object> additionalProperties = new HashMap<>();
 
     @JsonProperty("spotify")
     public String getSpotify() {

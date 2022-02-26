@@ -13,8 +13,4 @@ public class UserInfo {
         return principal;
     }
 
-    @GetMapping("/hello")
-    public Principal hello(Principal principal) {
-        return principal;
-    }
 }

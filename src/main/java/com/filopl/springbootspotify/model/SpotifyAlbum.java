@@ -18,7 +18,7 @@ public class SpotifyAlbum {
     @JsonProperty("tracks")
     private Tracks tracks;
     @JsonIgnore
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private Map<String, Object> additionalProperties = new HashMap<>();
 
     @JsonProperty("tracks")
     public Tracks getTracks() {

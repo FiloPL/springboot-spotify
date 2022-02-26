@@ -52,7 +52,7 @@ public class Album {
     @JsonProperty("uri")
     private String uri;
     @JsonIgnore
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private Map<String, Object> additionalProperties = new HashMap<>();
 
     @JsonProperty("album_type")
     public String getAlbumType() {

@@ -33,7 +33,7 @@ public class Artist {
     @JsonProperty("uri")
     private String uri;
     @JsonIgnore
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private Map<String, Object> additionalProperties = new HashMap<>();
 
     @JsonProperty("external_urls")
     public ExternalUrls getExternalUrls() {

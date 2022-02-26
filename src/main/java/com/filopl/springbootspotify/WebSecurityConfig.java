@@ -11,6 +11,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
-        httpSecurity.authorizeRequests().antMatchers("/hello").authenticated();
+        httpSecurity.authorizeRequests().antMatchers("/album/*").authenticated();
+        httpSecurity.authorizeRequests().antMatchers("/add-track/").permitAll().and().csrf().disable();
     }
 }
